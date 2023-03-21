@@ -1,0 +1,153 @@
+body 
+{
+    margin: 0px;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.ptmlogo img
+{
+    height: 60px;
+    position: absolute;
+    bottom: 600px;
+    top: 25px;
+    left: 20px;
+
+}
+
+.midtxt
+{
+    width: 75%;
+}
+ul
+{
+    top: 25px;
+    font-family: Inter, sans-serif;
+    display: flex;
+    list-style-type: none;
+    justify-content:space-evenly;   
+} 
+
+li
+{
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover
+{
+    background-color:#f6f6f6;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signin
+{
+    height: 37px;
+    top: 40px;
+    position: absolute; 
+    right: 10px;
+    color: white;
+    background-color: #00baf2;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.signin:hover
+{
+    background-color: #002977;
+    cursor: pointer;
+}
+
+.lrnmor
+{
+    box-shadow: inset 0px 5px 20px 0 rgba(54, 21, 21, 0.2), inset -6px -6px 10px 0 rgb(255, 255, 255);
+    text-align: center;
+    text-align: center;
+    background-color: white;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    padding: 1px ;
+}
+
+
+.head img
+{
+    height: 85px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+}
+
+.txt
+{
+    padding-right: 500px;
+    display: flex;
+}
+
+.boldtxt
+{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    font-family: Inter,sans-serif;;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.para
+{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    font-family: Inter, sans-serif;
+    font-size: 25px ;
+}
+
+.mobscrn img
+{
+    position: absolute;
+    right: 0px;
+    top: 250px;
+    height: 500px;
+}
+
+.dlod
+{
+    left: 100px;
+    border-radius: 30px;
+        border: none;
+        background-color: black;
+        color: #ffff;
+        width: 250px;
+        height: 40px;
+        font-size: 15px;
+        font-family: Inter, sans-serif;
+        position: absolute;
+        top: 650px;
+        cursor: pointer;
+}
+
+.dlod:hover
+{
+    background-color: #f6f6f6;
+    color: black;
+    border: 1px solid black;
+}
+
+a:link
+{
+    text-decoration: none;
+}
