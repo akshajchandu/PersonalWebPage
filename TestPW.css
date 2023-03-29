@@ -185,7 +185,7 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
   position: relative;
   width: 375px;
-  left: 200px;
+  left: 100px;
 }
 
 @media (max-width: 599px) {
@@ -368,4 +368,3 @@ body.preloader-site {
   justify-content: center;
   align-items: center;
 }
-
