@@ -187,7 +187,7 @@ html {
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
   position: relative;
   width: 375px;
-  left: 32%;
+  /* left: 32%; */
 }
 
 @media (max-width: 599px) {
